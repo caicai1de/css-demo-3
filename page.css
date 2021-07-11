@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+
+  display: flex;
+}
+img {
+  height: 80px;
+}
+ul > li {
+  line-height: 50px;
+  padding: 6px 0.3em;
+  color: white;
+  font-size: 23px;
+}
+.content {
+  display: flex;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.content > aside {
+  background: hsl(120, 30%, 50%);
+  width: 100px;
+  height: 400px;
+}
+.content > main {
+  background: hsl(120, 80%, 50%);
+  width: 300px;
+  height: 400px;
+}
+.content > div {
+  background: hsl(120, 30%, 50%);
+  width: 200px;
+  height: 400px;
+}
+.image-display {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-display > .x {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -9px; /*很重要*/
+}
+.image-display > .x > .image {
+  width: 194px;
+  height: 160px;
+  margin-right: 9px;
+  margin-bottom: 10px;
+}
+
+.image-display > .x > .I1 {
+  background: red;
+}
+.image-display > .x > .I2 {
+  background: orange;
+}
+.image-display > .x > .I3 {
+  background: yellow;
+}
+.image-display > .x > .I4 {
+  background: green;
+}
+.image-display > .x > .I5 {
+  background: blue;
+}
+.image-display > .x > .I6 {
+  background: purple;
+}
